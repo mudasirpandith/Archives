@@ -1,0 +1,65 @@
+.body {
+  text-align: center;
+}
+.heading {
+  margin-top: -20px;
+  font-weight: 600;
+  padding-top: 20px;
+  font-family: "Pacifico", cursive;
+  background: -webkit-linear-gradient(red, blue);
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+p,
+h1,
+h2,
+h3,
+h4 {
+  color: hsl(217, 16%, 45%);
+}
+img {
+  width: 100%;
+  height: 500px;
+}
+.closebtn {
+  bottom: 10px;
+}
+.game-images {
+  width: 70px;
+  padding: 10px;
+  height: auto;
+  border: white 3px;
+  border-radius: 50%;
+  border: black solid;
+
+  background-image: radial-gradient(red, blue);
+}
+
+.select-game-images {
+  border: black solid;
+  border-radius: 50%;
+  height: 70px;
+  width: auto;
+  margin: 10px 0;
+  padding: 8px;
+  background-image: radial-gradient(red, blue);
+}
+.yscore {
+  padding: 0 10px;
+  color: green;
+  float: left;
+}
+.cscore {
+  color: red;
+  float: right;
+  padding: 0 10px;
+}
+.tscore {
+  padding: 0 10px;
+}
+footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
